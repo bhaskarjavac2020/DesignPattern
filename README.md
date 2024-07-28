@@ -1,4 +1,5 @@
 StrategyDesignPattern using springboot
+--------------------------------------
 If we have to support more file types, we just have to create new classes like SqliteFileParser and ParquetFileParser which implements the FileParser interface. As a result, multiple developers implementing these new file parsers will avoid any merge conflicts later.
 
 The existing file parsers remain untouched thereby reducing any chances of breaking existing functionality.
